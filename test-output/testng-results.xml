@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6" started-at="2022-06-13T16:02:25Z" finished-at="2022-06-13T16:02:25Z">
+  <suite name="Default suite" duration-ms="73684" started-at="2022-08-02T06:45:23Z" finished-at="2022-08-02T06:46:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6" started-at="2022-06-13T16:02:25Z" finished-at="2022-06-13T16:02:25Z">
+    <test name="Default test" duration-ms="73684" started-at="2022-08-02T06:45:23Z" finished-at="2022-08-02T06:46:37Z">
+      <class name="com.base.Implementation">
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:com.base.Implementation@31a5c39e]" name="tc0" duration-ms="20646" started-at="2022-08-02T12:15:24Z" data-provider="Data" finished-at="2022-08-02T12:15:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:com.base.Implementation@31a5c39e]" name="tc0" duration-ms="14747" started-at="2022-08-02T12:15:45Z" data-provider="Data" finished-at="2022-08-02T12:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Va ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Va ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:com.base.Implementation@31a5c39e]" name="tc0" duration-ms="18703" started-at="2022-08-02T12:15:59Z" data-provider="Data" finished-at="2022-08-02T12:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Am]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:com.base.Implementation@31a5c39e]" name="tc0" duration-ms="18663" started-at="2022-08-02T12:16:18Z" data-provider="Data" finished-at="2022-08-02T12:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Su]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[su]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+      </class> <!-- com.base.Implementation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

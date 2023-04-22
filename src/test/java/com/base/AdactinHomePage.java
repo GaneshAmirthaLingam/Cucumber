@@ -13,6 +13,13 @@ public class AdactinHomePage extends BaseUtility {
 	@FindBy(id="username")
 	private WebElement username;
 	
+	@FindBy(id="password")
+	private WebElement password;
+	
+	@FindBy(id="login")
+	private WebElement login;
+	
+	
 	public WebElement getUsername() {
 		return username;
 	}
@@ -25,10 +32,5 @@ public class AdactinHomePage extends BaseUtility {
 		return login;
 	}
 
-	@FindBy(id="password")
-	private WebElement password;
-	
-	@FindBy(id="login")
-	private WebElement login;
 	}
 

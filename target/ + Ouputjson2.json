@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="102.564">
+<testcase classname="validate the adactin hotel booking page" name="_2" time="102.322">
+<failure message="Cannot locate an element using id=order_no&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TNE954T', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on Adactin Login page.........................................passed
+When user enter given valid  "GaneshA10" and "Naturejo@88"..................passed
+And user click on login button..............................................passed
+Then you are successfully login.............................................passed
+When user as Select "Berlin"................................................passed
+And user to Select "Hotel Hilton"...........................................passed
+Then user Select a "Double".................................................passed
+And user as "3 - Three".....................................................passed
+Then user as to Select "04/10/2022".........................................passed
+And user as for Select "<Check Out Date>"...................................passed
+Then user to a Select "3 - Three"...........................................passed
+And user for Select "3 - Three".............................................passed
+Then user as click for Search button........................................passed
+Then user click the radio button and click the continue.....................passed
+And user as give the "Ganesh"...............................................passed
+Then user as give to the "A"................................................passed
+And user given the "No 27, 2nd Cross Street, Dharmapuri, Puducherry"........passed
+Then user as give a "3752432556988745"......................................passed
+And user as Select the "Master Card"........................................passed
+Then user as Select to the "July" and "2022"................................passed
+And user give a "973".......................................................passed
+Then user Click the BookNow button..........................................passed
+Then user Click the MyItinerary.............................................passed
+And user get the OrderNo....................................................failed
+And user Click the Logout button............................................skipped
+Then user get the successfully logged out message...........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=order_no
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TNE954T', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.adactinb.StepDefinition.user_get_the_OrderNo(StepDefinition.java:160)
+	at ✽.user get the OrderNo(file:///C:/Users/ADMIN/eclipse-workspace/CucumberProject/src/test/resources/AdactingFormFil.feature:27)
+]]></failure>
+</testcase>
+</testsuite>

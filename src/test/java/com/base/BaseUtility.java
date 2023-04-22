@@ -36,7 +36,7 @@ public class BaseUtility {
 
 		Workbook w = new XSSFWorkbook(new FileInputStream(new File("C:\\Users\\ADMIN\\eclipse-workspace\\CucumberProject\\Test\\Data.xlsx")));
 
-		return w.getSheet("Data").getRow(rownum).getCell(cellnum).getStringCellValue();
+		return w.getSheet("Sheet1").getRow(rownum).getCell(cellnum).getStringCellValue();
 	}
 	
 	

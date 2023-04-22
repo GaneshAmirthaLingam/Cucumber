@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.135">
+<testcase classname="Validation of Instagram Home page" name="_2" time="4.828">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given Validation the Instagram Home Page using Incorrect username and InCrt password.passed
+When user enters the username and password..................................passed
+And user confirm Login button isEnable......................................failed
+Then user validates the homepage............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdefinition.InstagramLoginPage.getLogin(InstagramLoginPage.java:19)
+	at org.stepdefinition.StepDef1.user_confirm_Login_button_isEnable(StepDef1.java:62)
+	at ✽.user confirm Login button isEnable(file:///C:/Users/ADMIN/eclipse-workspace/CucumberProject/src/test/resources/InstagramLogin.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
